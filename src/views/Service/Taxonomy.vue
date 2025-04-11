@@ -38,25 +38,25 @@
                                 <img :src="require('@/assets/images/each/'+selectedProject.images )"  alt="img"   style="aspect-ratio: 16 / 9;width: 100%;"> 
                                 </div>
                             <div class="detail-right">
-                                <p><span class="custom-tag1" :style="{'color':'#B78296','border':`1px solid #B78296`}" v-for="(item1, index1) in selectedProject.person" :key="index">{{ item1 }}</span></p>
-                                <p><span class="custom-tag1" :style="{'color':'#4E98C0','border':`1px solid #4E98C0`}" v-for="(item1, index1) in selectedProject.place" :key="index">{{ item1 }}</span></p>
-                                <p><span class="custom-tag1" :style="{'color':'#AF967E','border':`1px solid #AF967E`}" v-for="(item1, index1) in selectedProject.Process1" :key="index">{{ item1 }}</span></p>
-                                <p><span class="custom-tag1" :style="{'color':'#58AE98','border':`1px solid #58AE98`}" v-for="(item1, index1) in selectedProject.Process2" :key="index">{{ item1 }}</span></p>
-                                <p><span class="custom-tag1" :style="{'color':'grey','border':`1px solid grey`}" v-for="(item1, index1) in selectedProject.Genre" :key="index">{{ item1 }}</span></p>
+                                <p><span class="custom-tag1" :style="{'color':'#B78296','border':`1px solid #B78296`}" v-for="(item1, index) in selectedProject.person" :key="index">{{ item1 }}</span></p>
+                                <p><span class="custom-tag1" :style="{'color':'#4E98C0','border':`1px solid #4E98C0`}" v-for="(item1, index) in selectedProject.place" :key="index">{{ item1 }}</span></p>
+                                <p><span class="custom-tag1" :style="{'color':'#AF967E','border':`1px solid #AF967E`}" v-for="(item1, index) in selectedProject.Process1" :key="index">{{ item1 }}</span></p>
+                                <p><span class="custom-tag1" :style="{'color':'#58AE98','border':`1px solid #58AE98`}" v-for="(item1, index) in selectedProject.Process2" :key="index">{{ item1 }}</span></p>
+                                <p><span class="custom-tag1" :style="{'color':'grey','border':`1px solid grey`}" v-for="(item1, index) in selectedProject.Genre" :key="index">{{ item1 }}</span></p>
                             </div>
                         </div>
                         <div class="left-block">
                             <span style="text-align: left;font-size: 1.2rem;font-weight: bolder;color:black">{{ selectedProject.name  }}</span>
-                            <a v-if="selectedProject.Link1" v-for="(selectedProject1, index1) in selectedProject.Link1" :key="index" :href="selectedProject.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                            <a v-if="selectedProject.Link1" v-for="(selectedProject1, index1) in selectedProject.Link1" :key="index1" :href="selectedProject.Link1[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
                                 <i class="fas fa-book" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
                             </a>
-                            <a v-if="selectedProject.Link2" v-for="(selectedProject1, index1) in selectedProject.Link2" :key="index" :href="selectedProject.Link2[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
-                                <i class="fas fa-book" style="color:brown;padding: 0; margin-left: 5px;font-size: small"></i>
+                            <a v-if="selectedProject.Link2" v-for="(selectedProject1, index1) in selectedProject.Link2" :key="index1" :href="selectedProject.Link2[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                                <i class="fas fa-book" style="color:#746f6e;padding: 0; margin-left: 5px;font-size: small"></i>
                             </a>
-                            <a v-if="selectedProject.Link3" v-for="(selectedProject1, index1) in selectedProject.Link3" :key="index" :href="selectedProject.Link3[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                            <a v-if="selectedProject.Link3" v-for="(selectedProject1, index1) in selectedProject.Link3" :key="index1" :href="selectedProject.Link3[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
                                 <i class="fas fa-desktop" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
                             </a>
-                            <a v-if="selectedProject.Link4" v-for="(selectedProject1, index1) in selectedProject.Link4" :key="index" :href="selectedProject.Link4[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
+                            <a v-if="selectedProject.Link4" v-for="(selectedProject1, index1) in selectedProject.Link4" :key="index1" :href="selectedProject.Link4[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
                                 <i class="fa-regular fa-comment-dots" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
                             </a>
                        </div>

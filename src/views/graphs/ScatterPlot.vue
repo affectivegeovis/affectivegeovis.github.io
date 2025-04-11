@@ -27,20 +27,44 @@ export default {
     watch: {
         selectedPointName(newName) {
             this.highlightPoint(newName);
-            console.log("=====",newName)
+            // console.log("=====",newName)
         }
     },
     mounted() {
-        this.loadData();
+        this.initChart();
     },
     methods: {
-        async loadData() {
-            try {
-                const response = await axios.get('/rc.json');
+        highlightPoint(pointName) {
+            
+            if (!this.chart || !pointName) return;
+            console.log(pointName)
+            let option = this.chart.getOption();
+            let series1 = option.series;
+            series1.forEach(serie => {
+                const defaultSize = serie.name === 'Method' ? 8 : 5; // 如果是 "Method"，默认大小为 8，否则为 5
+                serie.data.forEach(item => {
+                    item[4] = defaultSize; // 设置默认大小
+                });
+                const index = serie.data.findIndex(item => item[3] === pointName);
+                if (index !== -1) {
+                    serie.data[index][4] = 15; // 设置选中点的大小
+                }
+            });
+
+            this.chart.setOption(option);
+
+        },
+
+        initChart() {
+            const echarts = require('echarts');
+            this.chart = echarts.init(this.$refs.chartContainer);
+            const myChart = this.chart;
+            let _this=this
+            axios.get('/rc.json').then((response) => {
                 const data = response.data;
                 
                 // 处理COL数据
-                this.colData = data.col.map(item => ({
+                _this.colData = data.col.map(item => ({
                     name: item.name,
                     x: parseFloat(item['0']),
                     y: parseFloat(item['1']),
@@ -48,7 +72,7 @@ export default {
                 }));
 
                 // 处理ROW数据
-                this.rowData = data.row.map(item => ({
+                _this.rowData = data.row.map(item => ({
                     name: item.name,
                     x: parseFloat(item['0']),
                     y: parseFloat(item['1']),
@@ -56,53 +80,16 @@ export default {
                     cluster: item.cluster,
                     color: item.color
                 }));
-
-                this.initChart();
-            } catch (error) {
-                console.error('Error loading data:', error);
-            }
-        },
-
-        highlightPoint(pointName) {
-            if (!this.chart || !pointName) return;
-
-            // const option = this.chart.getOption();
-            // const series = option.series;
-            console.log(pointName)
-            // 重置所有点的大小
-            // series.forEach(serie => {
-            //     serie.symbolSize = serie.name === 'COL' ? 8 : 5;
-            // });
-
-            // // 找到并高亮选中的点
-            // series.forEach(serie => {
-            //     const data = serie.data;
-            //     const index = data.findIndex(item => item[3] === pointName);
-            //     if (index !== -1) {
-            //         // 创建新的数据数组，只修改选中点的大小
-            //         const newData = [...data];
-            //         newData[index] = [...newData[index]];
-            //         newData[index][4] = 15; // 设置选中点的大小
-            //         serie.data = newData;
-            //     }
-            // });
-
-            // this.chart.setOption({ series });
-        },
-
-        initChart() {
-            this.chart = echarts.init(this.$refs.chartContainer);
-            
             // 准备COL数据（三角形）
             const colSeries = {
-                name: 'COL',
+                name: 'Method',
                 type: 'scatter3D',
-                data: this.colData.map(item => [
+                data: _this.colData.map(item => [
                     item.x,
                     item.y,
                     item.z,
                     item.name,
-                    6 // 初始大小
+                    6
                 ]),
                 symbol: 'triangle',
                 symbolSize: 6,
@@ -111,24 +98,31 @@ export default {
                     opacity: 0.3
                 }
             };
-
+            const clustername={
+                0: 'Computational',
+                1: 'Anthropological',
+                2: 'Art',
+                3: 'Social activism',
+            }
             // 准备ROW数据（圆形，按cluster分组）
-            const rowClusters = [...new Set(this.rowData.map(item => item.cluster))];
+            const rowClusters = [...new Set(_this.rowData.map(item => item.cluster))];
             const rowSeries = rowClusters.map(cluster => {
-                const clusterData = this.rowData.filter(item => item.cluster === cluster);
+                const clusterData = _this.rowData.filter(item => item.cluster === cluster);
                 const color = clusterData[0].color;
                 return {
-                    name: `Cluster ${cluster}`,
+                    name: `${clustername[cluster]}`,
                     type: 'scatter3D',
                     data: clusterData.map(item => [
                         item.x,
                         item.y,
                         item.z,
                         item.name,
-                        5 // 初始大小
+                        5 
                     ]),
                     symbol: 'circle',
-                    symbolSize: 5,
+                    symbolSize: function (val) {
+                        return val[4] || 5; // 第5个元素控制大小，默认5
+                    },
                     itemStyle: {
                         color: color,
                         opacity: 0.8
@@ -146,7 +140,7 @@ export default {
                     }
                 },
                 legend: {
-                    data: ['COL', ...rowClusters.map(cluster => `Cluster ${cluster}`)]
+                    data: ['Method', ...rowClusters.map(cluster => `${clustername[cluster]}`)]
                 },
                 grid3D: {
                     viewControl: {
@@ -170,10 +164,10 @@ export default {
                 series: [colSeries, ...rowSeries]
             };
 
-            this.chart.setOption(option);
+            myChart.setOption(option);
 
             // 添加点击事件
-            this.chart.on('click', params => {
+            myChart.on('click', params => {
                 if (params.data) {
                     this.$emit('point-clicked', params.data[3]);
                 }
@@ -181,21 +175,27 @@ export default {
 
             // 添加窗口大小变化事件
             window.addEventListener('resize', () => {
-                this.chart.resize();
+                myChart.resize();
             });
 
             // 如果有选中的点，高亮显示
             if (this.selectedPointName) {
                 this.highlightPoint(this.selectedPointName);
             }
-        }
+        
+    }).catch((error) => {
+  console.error('Error reading local JSON file:', error);
+}); 
+      }
+            
     },
-    beforeDestroy() {
-        if (this.chart) {
-            this.chart.dispose();
-        }
-        window.removeEventListener('resize', this.chart.resize);
-    }
+
+    // beforeDestroy() {
+    //     if (this.chart) {
+    //         this.chart.dispose();
+    //     }
+    //     window.removeEventListener('resize', this.chart.resize);
+    // }
 }
 </script>
 
