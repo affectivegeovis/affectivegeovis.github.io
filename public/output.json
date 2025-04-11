@@ -1,0 +1,2042 @@
+[
+    {
+        "name": "East Paris Emotion Map",
+        "author": "Christian Nold",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "hardware",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "color"
+        ],
+        "Genre": [
+            "statis image/painting",
+            "event"
+        ],
+        "Link1": [
+            "http://www.emotionalcartography.net/EmotionalCartographyLow.pdf",
+            
+            "https://discovery.ucl.ac.uk/id/eprint/10045820/"
+        ],
+        "Link2":[],
+        "Link3": [
+            "http://www.paris.emotionmap.net/"
+        ],
+        "Link4":[],
+        "images": "East Paris Emotion Map.png"
+    },
+    {
+        "name": "San Francisco Emotion Map",
+        "author": "Christian Nold",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "hardware",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "color"
+        ],
+        "Genre": [
+            "statis image/painting",
+            "event"
+        ],
+        "Link1": [
+            "http://www.emotionalcartography.net/EmotionalCartographyLow.pdf",
+            "http://emotionmap.net/GreenwichEmotionMap.pdf",
+            
+            "https://discovery.ucl.ac.uk/id/eprint/10045820/"
+        ],
+        "Link2":[],
+        "Link3": [
+            "http://www.sf.biomapping.net/"
+        ],
+        "Link4":[],
+        "images": "San Francisco Emotional Map.png"
+    },
+    {
+        "name": "Stockport Emotion Map",
+        "author": "Christian Nold",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "embodied movement",
+            "hardware",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "shape",
+            "color"
+        ],
+        "Genre": [
+            "statis image/painting",
+            "event"
+        ],
+        "Link1": [
+            "http://www.emotionalcartography.net/EmotionalCartographyLow.pdf",
+            "http://emotionmap.net/GreenwichEmotionMap.pdf",
+            
+            "https://discovery.ucl.ac.uk/id/eprint/10045820/"
+        ],
+        "Link2":[],
+        "Link3": [
+            "http://stockport.emotionmap.net/"
+        ],
+        "Link4":[],
+        "images": "Stockport Emotion Map.png"
+    },
+    {
+        "name": "Greenwich Emotion Map",
+        "author": "Christian Nold",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "hardware",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "image/photo",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "statis image/painting",
+            "event"
+        ],
+        "Link1": [
+            "http://www.emotionalcartography.net/EmotionalCartographyLow.pdf",
+            "http://emotionmap.net/GreenwichEmotionMap.pdf",
+            
+            "https://discovery.ucl.ac.uk/id/eprint/10045820/"
+        ],
+        "Link2":[],
+        "Link3": [
+            "http://emotionmap.net/"
+        ],
+        "Link4":[],
+        "images": "Greenwich Emotion Map.png"
+    },
+    {
+        "name": "Mapping Memories of Exiles: Combining Conventional and Alternative Cartographic Approaches",
+        "author": "Caquard Sébastien, Shaw Emory, Alavez José, Dimitrovas Stefanie",
+        "person": [
+            "individual",
+            "special status"
+        ],
+        "place": [
+            "country",
+            "memorized place"
+        ],
+        "Process1": [
+            "interview",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "image/photo",
+            "symbol/metaphor",
+            "annotated content/associated stories",
+            "sound",
+            "personalized visual"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1": [
+            "https://spectrum.library.concordia.ca/id/eprint/987546/"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Mapping Memories of Exiles_ Combining Conventional and Alternative Cartographic Approaches.png"
+    },
+    {
+        "name": "Space-time Cubes",
+        "author": "Joanna Gardener",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "architecture/site",
+            "psychological place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "video recording/taking pictures",
+            "hardware"
+        ],
+        "Process2": [
+            "animation/simulation",
+            "color",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "artifact"
+        ],
+        "Link1": [
+            "https://ica-proc.copernicus.org/articles/1/43/2018/",
+            
+            "https://cartographicperspectives.org/index.php/journal/article/view/cp88-vf"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Space-time Cubes.png"
+    },
+    {
+        "name": "Mapping an emotional topography of an ecological homeland: The case of Sakhalin Island, Russia",
+        "author": "Jessica K. Graybill",
+        "person": [
+            "individual",
+            "cultural/racial",
+            "residential"
+        ],
+        "place": [
+            "non-urban/rural",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "fieldwork and ethnography",
+            "posting sticky notes"
+        ],
+        "Process2": [
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "event"
+        ],
+        "Link1": [
+            "https://doi.org/10.1016/j.emospa.2012.09.005"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Mapping an emotional topography of an ecological homeland_ The case of Sakhalin Island, Russia.png"
+    },
+    {
+        "name": "Inductive Visualization: A Humanistic Alternative to GIS",
+        "author": "Anne Kelly Knowles,Levi Westerveld, Laura Strom",
+        "person": [
+            "individual",
+            "special status"
+        ],
+        "place": [
+            "architecture/site",
+            "memorized place"
+        ],
+        "Process1": [
+            "interview",
+            "historical material mining"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "shape",
+            "color",
+            "style",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://doi.org/10.1080/2373566X.2015.1108831"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Inductive Visualization_ A Humanistic Alternative to GIS.png"
+    },
+    {
+        "name": "I was there",
+        "author": "Levi Westerveld, Anne Kelly Knowles",
+        "person": [
+            "individual",
+            "special status"
+        ],
+        "place": [
+            "country",
+            "memorized place"
+        ],
+        "Process1": [
+            "interview",
+            "historical material mining"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "shape",
+            "color",
+            "style"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://spectrum.library.concordia.ca/id/eprint/987545/"
+        ],
+        "Link3": [
+            "https://www.visionscarto.net/i-was-there"
+        ],
+        "Link4":[],
+        "images": "I was there.png"
+    },
+    {
+        "name": "Smell maps",
+        "author": "Kate McLean",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "embodied movement",
+            "prepared toolkit",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "shape",
+            "color"
+        ],
+        "Genre": [
+            "statis image/painting",
+            "event"
+        ],
+        "Link1": [
+            "https://link.springer.com/chapter/10.1007/978-3-658-30956-5_12",
+            
+            "https://www.proquest.com/openview/4b242ca4a99c6fb5674f574b89c69c27/1?pq-origsite=gscholar&cbl=51922&diss=y"
+        ],
+        "Link2":[],
+        "Link3": [
+            "http://sensorymaps.com"
+        ],
+        "Link4":[],
+        "images": "Smell maps.png"
+    },
+    {
+        "name": "The Spatial Politics of Affect and Emotion in Participatory GIS",
+        "author": "Jason C. Young, Michael P. Gilmore",
+        "person": [
+            "group",
+            "cultural/racial",
+            "residential"
+        ],
+        "place": [
+            "non-urban/rural",
+            "physical place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "fieldwork and ethnography",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "interactive interface",
+            "event"
+        ],
+        "Link1": [
+            "https://doi.org/10.1080/00045608.2012.707596"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "The Spatial Politics of Affect and Emotion in Participatory GIS.png"
+    },
+    {
+        "name": "Emotional cartography as a window into children's well-being: Visualizing the felt geographies of place",
+        "author": "Andrew Steger, Elly Evans, Bryan Wee",
+        "person": [
+            "individual",
+            "age",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "memorized place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "personal experience"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "shape",
+            "color",
+            "style"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://doi.org/10.1016/j.emospa.2021.100772"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Emotional cartography as a window into children_s well-being_ Visualizing the felt geographies of place.png"
+    },
+    {
+        "name": "The Image of the City",
+        "author": "Kevin Lynch",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "drawing/sketching",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "symbol/metaphor"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://www.miguelangelmartinez.net/IMG/pdf/1960_Kevin_Lynch_The_Image_of_The_City_book.pdf",
+            
+            "https://d1wqtxts1xzle7.cloudfront.net/46359078/Image_of_the_City-libre.pdf?1465487880=&response-content-disposition=inline%3B+filename%3DImage_of_the_City.pdf&Expires=1732618528&Signature=DtvqmR9qs~1epHtbYn261NfSroCPaXL2d6X1mfUpZJ4OldUPXDSgWvMuF3-ljnybiR44BSiCFwf~jdMaLWr6lBiV~v0d1AtLluAEs0bZOPBm3elwaJsBxERlJzoPuSjmECAb88TXTN5GLMA4QO5bZ7kBydQIu6~MvmEaRieyFnaMeiYDGVzl~GnOeE2cDvg~igk4ARC-YKL6xi8gZqEOU4wfQbTQS3WZa7lRmdRnuAfds2Wa1afWqRHawwZpiVV1Bt1BAIlzRcbuZ9j~NFITDEgIhSAT9oZrdHHcB2iMTPcXyEmL8AAUNSS9fOgDB~a3ctgCSobEGFj7A3RBV2swsA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "The Image of the City.png"
+    },
+    {
+        "name": "A Grenoble, l’anti-atlas des frontières vécues par les migrants",
+        "author": "Sarah Mekdjian",
+        "person": [
+            "group",
+            "special status"
+        ],
+        "place": [
+            "country",
+            "memorized place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "artifact"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://doi.org/10.1177/0309132514527039"
+        ],
+        "Link3":[],
+        "Link4": [
+            "https://www.terraeco.net/A-Grenoble-les-cartes-des,50258.html"
+        ],
+        "images": "A Grenoble, l’anti-atlas des frontières vécues par les migrants.png"
+    },
+    {
+        "name": "Cartographie sensible, émotions et imaginaire.",
+        "author": "Élise Olmedo",
+        "person": [
+            "group",
+            "class",
+            "gender",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "fieldwork and ethnography"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "collage",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "artifact"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://doi.org/10.1177/0309132514527039"
+        ],
+        "Link3": [
+            "https://blog.mondediplo.net/2011-09-19-Cartographie-sensible-emotions-et-imaginaire"
+        ],
+        "Link4":[],
+        "images": "Cartographie sensible, émotions et imaginaire_.png"
+    },
+    {
+        "name": "Collectively Mapping Borders",
+        "author": "Meghan Kelly",
+        "person": [
+            "group",
+            "special status"
+        ],
+        "place": [
+            "country",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "drawing/sketching",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "image/photo",
+            "wording/phrasing",
+            "symbol/metaphor"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://cartographicperspectives.org/index.php/journal/article/view/cp84-kelly",
+            
+            "https://cartographicperspectives.org/index.php/journal/article/view/1406"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Collectively Mapping Borders.png"
+    },
+    {
+        "name": "The Last Piece Is You",
+        "author": "Margaret Wickens Pearce",
+        "person": [
+            "group",
+            "cultural/racial",
+            "residential"
+        ],
+        "place": [
+            "non-urban/rural",
+            "physical place"
+        ],
+        "Process1": [
+            "fieldwork and ethnography"
+        ],
+        "Process2": [
+            "wording/phrasing",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://doi.org/10.1179/1743277414Y.0000000078"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "The Last Piece Is You.png"
+    },
+    {
+        "name": "Mapping Champlain’s Travels: Restorative Techniques for Historical Cartography",
+        "author": "Margaret Wickens Pearce, Michael James Hermann",
+        "person": [
+            "individual",
+            "traveler"
+        ],
+        "place": [
+            "country",
+            "physical place"
+        ],
+        "Process1": [
+            "historical material mining"
+        ],
+        "Process2": [
+            "typeface",
+            "image/photo",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://doi.org/10.3138/carto.45.1.32",
+            "https://cartographicperspectives.org/index.php/journal/article/view/cp71-huffman"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Mapping Champlain’s Travels_ Restorative Techniques for Historical Cartography.png"
+    },
+    {
+        "name": "Snap Map",
+        "author": "",
+        "person": [
+            "group",
+            "not specified or anyone"
+        ],
+        "place": [
+            "world",
+            "physical place"
+        ],
+        "Process1": [
+            "system/platform development"
+        ],
+        "Process2": [
+            "personalized visual"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://doi.org/10.1080/00087041.2019.1633103"
+        ],
+        "Link3":[],
+        "Link4": [
+            "https://blog.richmond.edu/livesofmaps/2017/11/03/snap-map-is-more-than-just-a-map/"
+        ],
+        "images": "Snap Map.png"
+    },
+    {
+        "name": "The LGBT community and public space: A mixed methods approach",
+        "author": "Emily L. Sanschagrin",
+        "person": [
+            "group",
+            "gender",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "drawing/sketching",
+            "questionnaire and survey"
+        ],
+        "Process2": [
+            "color"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://digitalcommons.du.edu/etd/573/"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "The LGBT community and public space_ A mixed methods approach.png"
+    },
+    {
+        "name": "Imprecity",
+        "author": "Aleksandra Nenko, Marina Petrova",
+        "person": [
+            "group",
+            "not specified or anyone"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "system/platform development",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "image/photo",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1": [
+            "https://link.springer.com/chapter/10.1007/978-3-030-02846-6_8"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Imprecity.png"
+    },
+    {
+        "name": "Visual Mementos: Reflecting Memories with Personal Data",
+        "author": "Alice Thudt, Dominikus Baur, Samuel Huron, Sheelagh Carpendale",
+        "person": [
+            "individual",
+            "traveler"
+        ],
+        "place": [
+            "world",
+            "physical place"
+        ],
+        "Process1": [
+            "system/platform development"
+        ],
+        "Process2": [
+            "image/photo",
+            "annotated content/associated stories",
+            "personalized visual"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1": [
+            "https://doi.org/10.1109/TVCG.2015.2467831"
+        ],
+        "Link2":[],
+        "Link3": [
+            "https://www.alicethudt.de/projects/visual-mementos"
+        ],
+        "Link4":[],
+        "images": "Visual Mementos_ Reflecting Memories with Personal Data.png"
+    },
+    {
+        "name": "Exploratory Geovisualizations for Supporting the Qualitative Analysis and Synthesis of Place-Related Emotion Data",
+        "author": "Susanne Bleisch, Daria Hollenstein",
+        "person": [
+            "group",
+            "age",
+            "gender",
+            "residential"
+        ],
+        "place": [
+            "architecture/site",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "fieldwork and ethnography"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "shape",
+            "color"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://cartographicperspectives.org/index.php/journal/article/view/1437"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Exploratory Geovisualizations for Supporting the Qualitative Analysis and Synthesis of Place-Related Emotion Data.png"
+    },
+    {
+        "name": "The pedagogical effects of psychogeographic urban exploration and mapping",
+        "author": "Minsung Kim",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "video recording/taking pictures",
+            "posting sticky notes"
+        ],
+        "Process2": [
+            "image/photo",
+            "symbol/metaphor",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://doi.org/10.1080/00167487.2021.1919412"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "The pedagogical effects of psychogeographic urban exploration and mapping.png"
+    },
+    {
+        "name": "Psychogeography and the study of social environments: extending visual methodological research in psychology",
+        "author": "Alexander John Bridger",
+        "person": [
+            "individual",
+            "traveler"
+        ],
+        "place": [
+            "architecture/site",
+            "psychological place"
+        ],
+        "Process1": [
+            "embodied movement"
+        ],
+        "Process2": [
+            "layout",
+            "collage"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://www.taylorfrancis.com/chapters/edit/10.4324/9780203829042-31/psychogeography-study-social-environments-extending-visual-methodological-research-psychology-alexander-john-bridger"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Psychogeography and the study of social environments_ extending visual methodological research in psychology.png"
+    },
+    {
+        "name": "Shawnadithit's map",
+        "author": "Shawnadithit",
+        "person": [
+            "individual",
+            "cultural/racial",
+            "residential"
+        ],
+        "place": [
+            "non-urban/rural",
+            "memorized place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "personal experience",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "image/photo",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://books.google.lk/books?id=A6-GAgAAQBAJ&printsec=frontcover#v=onepage&q&f=false"
+        ],
+        "Link3":[],
+        "Link4": [
+            "https://dataxdesign.io/chapters/shanawdithit"
+        ],
+        "images": "Shawnadithit_s map.png"
+    },
+    {
+        "name": "A Map You Can Walk Into: Immersive Cartography and the Speculative Potentials of Data",
+        "author": "David Rousell",
+        "person": [
+            "individual",
+            "not specified or anyone"
+        ],
+        "place": [
+            "architecture/site",
+            "physical place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "embodied movement",
+            "video recording/taking pictures",
+            "system/platform development",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "image/photo",
+            "animation/simulation",
+            "sound"
+        ],
+        "Genre": [
+            "installation",
+            "event"
+        ],
+        "Link1": [
+            "https://doi.org/10.1177/1077800420935927"
+        ],
+        "Link2":[],
+        "Link3": [
+            "https://www.statesandterritories.org/orientations"
+        ],
+        "Link4":[],
+        "images": "A Map You Can Walk Into_ Immersive Cartography and the Speculative Potentials of Data.png"
+    },
+    {
+        "name": "Imaginary Italies ",
+        "author": "Renzo Piano ",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "country",
+            "psychological place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "layout",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://doi.org/10.1177/20438206211017440",
+            
+            "https://doi.org/10.1016/j.polgeo.2021.102343"
+        ],
+        "Link3":[],
+        "Link4":[],
+        "images": "Imaginary Italies .png"
+    },
+    {
+        "name": "#SoundingOutMySilence: Reading a LGBTQ Youth's Sonic Cartography as Multimodal (Counter)Storytelling",
+        "author": "Jon M. Wargo",
+        "person": [
+            "individual",
+            "gender",
+            "cultural/racial"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "embodied movement",
+            "fieldwork and ethnography"
+        ],
+        "Process2": [
+            "image/photo",
+            "annotated content/associated stories",
+            "sound"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1": [
+            "https://doi.org/10.1002/jaal.752"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "SoundingOutMySilence_ Reading a LGBTQ Youth_s Sonic Cartography as Multimodal (Counter)Storytelling.png"
+    },
+    {
+        "name": "Everybody Map Now: Participatory Map Making on Bumpkin Island",
+        "author": "Uta Hinrichs, Zannah Marsh",
+        "person": [
+            "individual",
+            "traveler"
+        ],
+        "place": [
+            "non-urban/rural",
+            "psychological place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "prepared toolkit"
+        ],
+        "Process2": [
+            "typeface",
+            "image/photo",
+            "symbol/metaphor",
+            "annotated content/associated stories",
+            "color",
+            "style"
+        ],
+        "Genre": [
+            "statis image/painting",
+            "event"
+        ],
+        "Link1": [
+            "https://research-portal.st-andrews.ac.uk/en/publications/everybody-map-now-participatory-map-making-on-bumpkin-island",
+            
+            "http://www.utahinrichs.de/uta/uploads/Publications/Publications/BumpkinIsland.pdf"
+        ],
+        "Link2":[],
+        "Link3": [
+            "http://www.utahinrichs.de/Projects/BumpkinIslandMapArchive"
+        ],
+        "Link4":[],
+        "images": "Everybody Map Now_ Participatory Map Making on Bumpkin Island.png"
+    },
+    {
+        "name": "Smiley Sticker Project",
+        "author": "Jin-Kyu Jung",
+        "person": [
+            "group",
+            "age"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "collaborative activity",
+            "posting sticky notes"
+        ],
+        "Process2": [
+            "image/photo"
+        ],
+        "Genre": [
+            "statis image/painting",
+            "event"
+        ],
+        "Link1": [
+            "https://link.springer.com/referenceworkentry/10.1007/978-981-4585-88-0_22-2"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Smiley Sticker Project.png"
+    },
+    {
+        "name": "Mapping the Lived Experience in Chorrillo, Panama",
+        "author": "Ken Hendrickson",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "architecture/site",
+            "physical place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "fieldwork and ethnography"
+        ],
+        "Process2": [
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://doi.org/10.1177/1077800410372600"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Mapping the Lived Experience in Chorrillo, Panama.png"
+    },
+    {
+        "name": "Zooming in on El Chorrillo: The Lived Environment, Elements, and Textures",
+        "author": "Gillian Speers",
+        "person": [
+            "group",
+            "class",
+            "residential"
+        ],
+        "place": [
+            "architecture/site",
+            "physical place"
+        ],
+        "Process1": [
+            "interview",
+            "fieldwork and ethnography",
+            "video recording/taking pictures"
+        ],
+        "Process2": [
+            "image/photo",
+            "collage"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://doi.org/10.1177/1077800410372600"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Zooming in on El Chorrillo_ The Lived Environment, Elements, and Textures.png"
+    },
+    {
+        "name": "The Mapping Journey Project",
+        "author": "Bouchra Khalili",
+        "person": [
+            "individual",
+            "special status"
+        ],
+        "place": [
+            "country",
+            "memorized place"
+        ],
+        "Process1": [
+            "interview",
+            "drawing/sketching"
+        ],
+        "Process2": [
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "video"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://www.taylorfrancis.com/books/mono/10.4324/9780367196400/mapping-paradigms-modern-contemporary-art-simonetta-moro"
+        ],
+        "Link3":[],
+        "Link4": [
+            "https://www.moma.org/calendar/exhibitions/1627"
+        ],
+        "images": "The Mapping Journey Project.png"
+    },
+    {
+        "name": "Core Sample",
+        "author": "Teri Rueb",
+        "person": [
+            "individual",
+            "traveler"
+        ],
+        "place": [
+            "non-urban/rural",
+            "physical place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "hardware"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "sound"
+        ],
+        "Genre": [
+            "event"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://ieeexplore.ieee.org/abstract/document/10301796"
+        ],
+        "Link3": [
+            "http://terirueb.net/core-sample-2007/"
+        ],
+        "Link4":[],
+        "images": "Core Sample.png"
+    },
+    {
+        "name": "Boston Coastline: Future Past",
+        "author": "Catherine D’Ignazio, Andi Sutton",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "embodied movement"
+        ],
+        "Process2": [
+            "wording/phrasing",
+            "color",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "event"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://ieeexplore.ieee.org/abstract/document/10301796"
+        ],
+        "Link3": [
+            "https://kanarinka.com/project/boston-coastline-future-past/",
+            "https://www.andisutton.net/boston-coastlines-future-past"
+        ],
+        "Link4":[],
+        "images": "Boston Coastline_ Future Past.png"
+    },
+    {
+        "name": "Community Power Map",
+        "author": "Anti-Eviction Mapping Project (AEMP)",
+        "person": [
+            "group",
+            "special status"
+        ],
+        "place": [
+            "architecture/site",
+            "physical place"
+        ],
+        "Process1": [
+            "drawing/sketching",
+            "collaborative activity",
+            "posting sticky notes"
+        ],
+        "Process2": [
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1": [
+            "https://www.tandfonline.com/doi/full/10.1080/2325548X.2023.2177451"
+        ],
+        "Link2":[],
+        "Link3": [
+            "https://antievictionmapd.maps.arcgis.com/apps/StoryMapCrowdsource/index.html?appid=0afabf23879a42f291deba308afc1831"
+        ],
+        "Link4":[],
+        "images": "Community Power Map.png"
+    },
+    {
+        "name": "Ellis Act Evictions",
+        "author": "Anti-Eviction Mapping Project (AEMP)",
+        "person": [
+            "group",
+            "special status"
+        ],
+        "place": [
+            "architecture/site",
+            "physical place"
+        ],
+        "Process1": [
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "animation/simulation",
+            "annotated content/associated stories",
+            "color"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1": [
+            "https://www.tandfonline.com/doi/full/10.1080/2325548X.2023.2177451"
+        ],
+        "Link2":[],
+        "Link3": [
+            "http://www.antievictionmappingproject.net/ellis.html"
+        ],
+        "Link4":[],
+        "images": "Ellis Act Evictions.png"
+    },
+    {
+        "name": "Shades of my memories",
+        "author": "Alice Thudt",
+        "person": [
+            "individual",
+            "traveler"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "video recording/taking pictures"
+        ],
+        "Process2": [
+            "image/photo",
+            "color",
+            "style"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://doi.org/10.1075/idj.23.1.07thu"
+        ],
+        "Link3":[],
+        "Link4":[],
+        "images": "Shades of my memories.png"
+    },
+    {
+        "name": "Peripatetic Box",
+        "author": "Simonetta Moro",
+        "person": [
+            "individual",
+            "not specified or anyone"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "prepared toolkit"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "collage"
+        ],
+        "Genre": [
+            "event"
+        ],
+        "Link1": [
+            "https://link.springer.com/chapter/10.1057/9781137025050_14"
+        ],
+        "Link2": [
+            "https://link.springer.com/chapter/10.1007/978-3-642-15537-6_5"
+        ],
+        "Link3": [
+            "https://www.simonettamoro.com/works/psychogeographies/pbox/index.html"
+        ],
+        "Link4":[],
+        "images": "Peripatetic Box.png"
+    },
+    {
+        "name": "Map of my Life",
+        "author": "Simonetta Moro",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "memorized place"
+        ],
+        "Process1": [
+            "personal experience"
+        ],
+        "Process2": [
+            "collage",
+            "color",
+            "style"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1": [
+            "https://link.springer.com/chapter/10.1057/9781137025050_14"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "Map of my Life.jpg"
+    },
+    {
+        "name": "Urban Fabric",
+        "author": "Liz Kueneke, Margarita Pineda, Ximena Covaleda",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "collaborative activity"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "event"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://link.springer.com/chapter/10.1007/978-3-642-15537-6_5"
+        ],
+        "Link3": [
+            "https://cargocollective.com/lizkueneke/The-Urban-Fabric-El-Tejido-Urbano"
+        ],
+        "Link4":[],
+        "images": "Urban Fabric.png"
+    },
+    {
+        "name": "Wounded Land /Art Cube",
+        "author": "Ariane Littman",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "country",
+            "physical place"
+        ],
+        "Process1": [
+            "personal experience",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "body language",
+            "color",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "performance",
+            "artifact"
+        ],
+        "Link1": [
+            "https://doi.org/10.18357/bigr42202321513"
+        ],
+        "Link2": [
+            "https://doi.org/10.1177/0309132514527039"
+        ],
+        "Link3": [
+            "https://ariane-littman.com/2021/09/wounded-land-exhibition/?setslidercat=map-land",
+            
+            "https://www.artiststudiosjlm.org/wounded-land.html",
+            
+            "https://ariane-littman.com/2019/03/embryo/?setslidercat=map-land",
+            
+            "https://ariane-littman.com/2017/11/twins-embryos-2017-2018/?setslidercat=map-land",
+            
+            "https://ariane-littman.com/2014/09/dada-jerusalem/?setslidercat=map-land"
+        ],
+        "Link4":[],
+        "images": "Wounded Land _Art Cube.png"
+    },
+    {
+        "name": "Grafted Land",
+        "author": "Ariane Littman",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "country",
+            "psychological place"
+        ],
+        "Process1": [
+            "personal experience",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "body language",
+            "collage",
+            "color",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "performance",
+            "artifact"
+        ],
+        "Link1": [
+            "https://doi.org/10.18357/bigr42202321513"
+        ],
+        "Link2": [
+            "https://doi.org/10.1177/0309132514527039"
+        ],
+        "Link3": [
+            "https://ariane-littman.com/2015/04/grafted-land/?setslidercat=map-land"
+        ],
+        "Link4":[],
+        "images": "Grafted Land.png"
+    },
+    {
+        "name": "Shredded Land",
+        "author": "Ariane Littman",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "country",
+            "psychological place"
+        ],
+        "Process1": [
+            "personal experience",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "body language",
+            "collage",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "performance",
+            "artifact"
+        ],
+        "Link1": [
+            "https://doi.org/10.18357/bigr42202321513"
+        ],
+        "Link2": [
+            "https://doi.org/10.1177/0309132514527039"
+        ],
+        "Link3": [
+            "https://ariane-littman.com/2010/05/shredded-land/?setslidercat=map-land"
+        ],
+        "Link4":[],
+        "images": "Shredded Land.png"
+    },
+    {
+        "name": "Erasure",
+        "author": "Ariane Littman",
+        "person": [
+            "individual",
+            "gender",
+            "residential"
+        ],
+        "place": [
+            "country",
+            "psychological place"
+        ],
+        "Process1": [
+            "personal experience",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "body language",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "performance",
+            "artifact"
+        ],
+        "Link1": [
+            "https://doi.org/10.18357/bigr42202321513"
+        ],
+        "Link2":[],
+        "Link3": [
+            "https://ariane-littman.com/2006/02/erasure-mehika/?setslidercat=map-land"
+        ],
+        "Link4":[],
+        "images": "Erasure.png"
+    },
+    {
+        "name": "From oral histories to visual narratives: re-presenting the post-September 11 experiences of the Muslim women in the USA",
+        "author": "Mei-Po Kwan",
+        "person": [
+            "individual",
+            "gender",
+            "cultural/racial",
+            "special status"
+        ],
+        "place": [
+            "architecture/site",
+            "memorized place"
+        ],
+        "Process1": [
+            "interview",
+            "embodied movement",
+            "hardware"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "color",
+            "sound"
+        ],
+        "Genre": [
+            "video"
+        ],
+        "Link1": [
+            "http://meipokwan.org/Paper/SCG_2008.pdf"
+        ],
+        "Link2": [
+            "https://doi.org/10.1111/j.1467-9272.2007.00588.x"
+        ],
+        "Link3":[],
+        "Link4":[],
+        "images": "From oral histories to visual narratives_ re-presenting the post-September 11 experiences of the Muslim women in the USA.png"
+    },
+    {
+        "name": "WiMo: Location-Based Emotion Tagging",
+        "author": "Ruturaj N. Mody, Katharine S. Willis, Roland Kerstein ",
+        "person": [
+            "group",
+            "not specified or anyone"
+        ],
+        "place": [
+            "world",
+            "physical place"
+        ],
+        "Process1": [
+            "system/platform development",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1": [
+            "https://www.researchgate.net/publication/221342397_WiMo_location-based_emotion_tagging"
+        ],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "WiMo_ Location-Based Emotion Tagging.png"
+    },
+    {
+        "name": "EmoMap",
+        "author": "Silvia Klettner, Haosheng Huang, Manuela Schmidt, Georg Gartner",
+        "person": [
+            "group",
+            "not specified or anyone"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "questionnaire and survey",
+            "system/platform development",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "color"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1": [
+            "https://icaci.org/files/documents/ICC_proceedings/ICC2013/_extendedAbstract/177_proceeding.pdf",
+            
+            "https://www.researchgate.net/profile/Haosheng-Huang-2/publication/288530365_Crowdsourcing_Affective_Responses_to_Space/links/596f491ca6fdcc6e3b900fe1/Crowdsourcing-Affective-Responses-to-Space.pdf?_sg%5B0%5D=started_experiment_milestone&origin=journalDetail&_rtd=e30%3D"
+        ],
+        "Link2":[],
+        "Link3": [
+            "https://cartography.tuwien.ac.at/emomap/"
+        ],
+        "Link4":[],
+        "images": "EmoMap.png"
+    },
+    {
+        "name": "Memory Maps",
+        "author": "Jake Barton",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "memorized place"
+        ],
+        "Process1": [
+            "collaborative activity",
+            "posting sticky notes"
+        ],
+        "Process2": [
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "event"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://www.researchgate.net/publication/239549481_Jake_Barton's_Performance_Maps_An_Essay"
+        ],
+        "Link3":[],
+        "Link4": [
+            "https://www.stirworld.com/inspire-people-jake-barton-of-local-projects-on-designing-experiences-through-storytelling"
+        ],
+        "images": "Memory Maps.png"
+    },
+    {
+        "name": "City of Memory",
+        "author": "Jake Barton",
+        "person": [
+            "group",
+            "not specified or anyone"
+        ],
+        "place": [
+            "city",
+            "memorized place"
+        ],
+        "Process1": [
+            "system/platform development",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "image/photo",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://www.researchgate.net/publication/239549481_Jake_Barton's_Performance_Maps_An_Essay"
+        ],
+        "Link3":[],
+        "Link4": [
+            "https://docubase.mit.edu/project/city-of-memory/",
+            "https://www.nytimes.com/2008/06/08/nyregion/thecity/08disp.html"
+        ],
+        "images": "City of Memory.png"
+    },
+    {
+        "name": "Worldview",
+        "author": "Jake Barton",
+        "person": [
+            "individual",
+            "not specified or anyone"
+        ],
+        "place": [
+            "world",
+            "physical place"
+        ],
+        "Process1": [
+            "system/platform development",
+            "collaborative activity"
+        ],
+        "Process2": [
+            "layout"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://www.researchgate.net/publication/239549481_Jake_Barton's_Performance_Maps_An_Essay"
+        ],
+        "Link3":[],
+        "Link4":[],
+        "images": "Worldview.png"
+    },
+    {
+        "name": "Psychogeographic guide of Paris",
+        "author": "Guy Debord",
+        "person": [
+            "individual",
+            "not specified or anyone"
+        ],
+        "place": [
+            "city",
+            "psychological place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "collage",
+            "color"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://doi.org/10.4324/9780367196400"
+        ],
+        "Link3":[],
+        "Link4": [
+            "https://imaginarymuseum.org/LPG/Mapsitu1.htm"
+        ],
+        "images": "Psychogeographic guide of Paris.png"
+    },
+    {
+        "name": "The Naked City",
+        "author": "Guy Debord",
+        "person": [
+            "individual",
+            "not specified or anyone"
+        ],
+        "place": [
+            "city",
+            "psychological place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "collage",
+            "color"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://doi.org/10.4324/9780367196400"
+        ],
+        "Link3":[],
+        "Link4": [
+            "https://situationnisteblog.wordpress.com/2015/06/07/the-naked-city-illustration-de-lhypothese-des-plaques-tournantes-en-psychogeographique-sic-1957/",
+            
+            "https://paulwalshphotographyblog.wordpress.com/2013/07/08/the-naked-city/"
+        ],
+        "images": "The Naked City.png"
+    },
+    {
+        "name": "The City Formerly Known as Cambridge",
+        "author": "Catherine D’Ignazio, The Institute for Infinitely Small Things",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "psychological place"
+        ],
+        "Process1": [
+            "questionnaire and survey"
+        ],
+        "Process2": [
+            "image/photo",
+            "annotated content/associated stories",
+            "collage"
+        ],
+        "Genre": [
+            "statis image/painting"
+        ],
+        "Link1":[],
+        "Link2": [
+            "https://books.google.com.hk/books?hl=zh-CN&lr=&id=iJpT_EuL7gAC&oi=fnd&pg=PA14&dq=The+Map+as+Art.+Harmon,+Katharine&ots=eIIb6CgRUz&sig=zmB6Zm2jrozScWH_d2zOPw8yUSc&redir_esc=y#v=onepage&q=The%20Map%20as%20Art.%20Harmon%2C%20Katharine&f=false"
+        ],
+        "Link3": [
+            "https://kanarinka.com/project/the-city-formerly-known-as-cambridge/"
+        ],
+        "Link4":[],
+        "images": "The City Formerly Known as Cambridge.png"
+    },
+    {
+        "name": "It takes 154,000 breaths to evacuate Boston",
+        "author": "Catherine D’Ignazio",
+        "person": [
+            "individual",
+            "special status"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "embodied movement"
+        ],
+        "Process2": [
+            "sound",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "installation",
+            "event"
+        ],
+        "Link1": [
+            "https://doi.org/10.1177/1206331207307806"
+        ],
+        "Link2":[],
+        "Link3": [
+            "https://kanarinka.com/project/it-takes-154000-breaths-to-evacuate-boston/"
+        ],
+        "Link4": [
+            "https://www.youtube.com/watch?v=BUhpHOFVhbA&t=2s&ab_channel=CatherineD%27Ignazio"
+        ],
+        "images": "It takes 154,000 breaths to evacuate Boston.png"
+    },
+    {
+        "name": "Jerusalem - Lines of Contentions",
+        "author": "Ariane Littman",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "country",
+            "physical place"
+        ],
+        "Process1": [
+            "personal experience",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "color",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "artifact"
+        ],
+        "Link1":[],
+        "Link2":[],
+        "Link3": [
+            "https://ariane-littman.com/2022/07/jerusalem-lines-2022/?setslidercat=map-land"
+        ],
+        "Link4":[],
+        "images": "Jerusalem - Lines of Contentions.png"
+    },
+    {
+        "name": "Surgical Operation",
+        "author": "Ariane Littman",
+        "person": [
+            "group",
+            "residential"
+        ],
+        "place": [
+            "country",
+            "physical place"
+        ],
+        "Process1": [
+            "personal experience",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "symbol/metaphor",
+            "body language",
+            "sound",
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "performance"
+        ],
+        "Link1":[],
+        "Link2":[],
+        "Link3": [
+            "https://ariane-littman.com/2004/11/surgical-operation/?setslidercat=map-land"
+        ],
+        "Link4":[],
+        "images": "Surgical Operation.png"
+    },
+    {
+        "name": "Road Maps",
+        "author": "Ariane Littman",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "country",
+            "psychological place"
+        ],
+        "Process1": [
+            "personal experience",
+            "inherent emotional attitude"
+        ],
+        "Process2": [
+            "image/photo",
+            "symbol/metaphor",
+            "shape",
+            "color"
+        ],
+        "Genre": [
+            "artifact"
+        ],
+        "Link1":[],
+        "Link2":[],
+        "Link3": [
+            "https://ariane-littman.com/2001/05/road-maps/?setslidercat=map-land"
+        ],
+        "Link4":[],
+        "images": "Road Maps.png"
+    },
+    {
+        "name": "Weaving the Grasses of America",
+        "author": "Julia Lines Wilson",
+        "person": [
+            "individual",
+            "residential"
+        ],
+        "place": [
+            "city",
+            "psychological place"
+        ],
+        "Process1": [
+            "embodied movement",
+            "video recording/taking pictures"
+        ],
+        "Process2": [
+            "tangible material/texture"
+        ],
+        "Genre": [
+            "artifact"
+        ],
+        "Link1":[],
+        "Link2":[],
+        "Link3": [
+            "https://julialineswilson.myportfolio.com/weaving-the-grasses-of-america"
+        ],
+        "Link4":[],
+        "images": "Weaving the Grasses of America.png"
+    },
+    {
+        "name": "Mapping emotions in Victorian London",
+        "author": "",
+        "person": [
+            "group",
+            "not specified or anyone"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "historical material mining"
+        ],
+        "Process2": [
+            "image/photo",
+            "annotated content/associated stories"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1":[],
+        "Link2":[],
+        "Link3": [
+            "https://www.historypin.org/en/victorian-london/geo/51.5128,-0.116085,7/bounds/48.966468,-2.769283,53.924355,2.537113/paging/1"
+        ],
+        "Link4":[],
+        "images": "Mapping emotions in Victorian London.png"
+    },
+    {
+        "name": "EmoGeoCity",
+        "author": "",
+        "person": [
+            "group",
+            "not specified or anyone"
+        ],
+        "place": [
+            "city",
+            "physical place"
+        ],
+        "Process1": [
+            "historical material mining"
+        ],
+        "Process2": [
+            "annotated content/associated stories",
+            "shape",
+            "color"
+        ],
+        "Genre": [
+            "interactive interface"
+        ],
+        "Link1":["https://ieeexplore.ieee.org/abstract/document/10541485"],
+        "Link2":[],
+        "Link3":[],
+        "Link4":[],
+        "images": "EmoGeoCity.png"
+    }
+]
