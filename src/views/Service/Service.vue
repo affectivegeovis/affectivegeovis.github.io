@@ -15,9 +15,19 @@
   <div class="contentcv"> 
   <!-- <br/> -->
   <br/>
+  <div class="filter-bar" style="text-align: left;margin-top: 3%;margin-bottom: 0%;font-size: 1rem;">
+    <p>
+        This page displays the 62 affective geovisualization design projects we analyzed, as well as the codes we generated for them. You can also click on the icons next to their titles to view their associated materials (e.g., 
+        <i class="fas fa-book" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>: the project's own research paper,  
+        <i class="fas fa-book" style="color:#746f6e;padding: 0; margin-left: 5px;font-size: small"></i>: another paper that mentions this project,
+        <i class="fas fa-desktop" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>: the project's own website; 
+        <i class="fa-regular fa-comment-dots" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>: other blogs/web materials).
+            </p> 
+  </div>
+       
          <div class="filter-bar">
-             
-             <!-- <div class="filter-label" :style="{'margin-top': '-0.7%'}">Filter by Year:</div>
+            
+            <!-- <div class="filter-label" :style="{'margin-top': '-0.7%'}">Filter by Year:</div>
              <barbrush @messageToParent="handleMessageFromChild"/> -->
              <div class="filter-label">Filter by Person:</div>
              <div class="filter-options">
@@ -115,7 +125,7 @@
                             <i class="fas fa-book" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
                         </a>
                         <a v-if="item.Link2" v-for="(item1, index1) in item.Link2" :key="index" :href="item.Link2[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
-                            <i class="fas fa-book" style="color:brown;padding: 0; margin-left: 5px;font-size: small"></i>
+                            <i class="fas fa-book" style="color:#746f6e;padding: 0; margin-left: 5px;font-size: small"></i>
                         </a>
                         <a v-if="item.Link3" v-for="(item1, index1) in item.Link3" :key="index" :href="item.Link3[index1]" target="_blank" style="display: inline-block; text-decoration: none;margin: 0; padding: 0;"> 
                             <i class="fas fa-desktop" style="color:black;padding: 0; margin-left: 5px;font-size: small"></i>
@@ -643,7 +653,7 @@
              border-radius: 20px;
              margin-left: 6%;
              margin-right: 6%;
-             margin-top: 6%;
+             margin-top: 1%;
              box-shadow: 0px 5px 14px rgba(182, 182, 182, 0.2); /* 添加底部阴影，可以根据需要调整参数 */
              /* color:white */
          }
@@ -651,7 +661,7 @@
              font-weight: bold;
              text-align: left;
              margin-top: 1%;
-             margin-bottom: 0.2%;
+             margin-bottom: 1%;
              /* color:white; */
          }
          .filter-options {

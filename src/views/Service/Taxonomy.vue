@@ -188,7 +188,7 @@
         background-color: white; /* 背景颜色 */
         border-radius: 8px; /* 圆角 */
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
-        font-size: 0.8rem; /* 字体大小 */
+        font-size: 1rem; /* 字体大小 */
         color: #333; /* 字体颜色 */
     }
 
@@ -225,6 +225,7 @@
         background-color: white;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         min-height: 45%;
+        /* min-height: 300px; */
     }
 
     .detail-section {
@@ -235,6 +236,7 @@
         background-color: white;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         min-height: 45%;
+        /* min-height: 200px; */
         overflow-y: auto;
     }
 

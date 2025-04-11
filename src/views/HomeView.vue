@@ -42,7 +42,7 @@
               Affective visualization design is an emerging research direction focused on communicating and influencing emotion through visualization. 
             However, as revealed by previous research, this area is highly interdisciplinary and involves theories and practices from diverse fields and disciplines, thus awaiting analysis from more fine-grained angles. 
             To address this need, this work focuses on a pioneering and relatively mature sub-area, affective geovisualization design, to further the research in this direction and provide more domain-specific insights. 
-            A corpus is collected and analyzed, containing 62 affective geovisualization design practices.
+            A corpus was collected and analyzed, containing 62 affective geovisualization design practices.
               <!-- In 2001, Anderson and Smith introduced the concept of emotional geographies, emphasizing the key role of emotion in studying how humans interact with places and spaces. 
               Since then, a series of conferences, journal issues, and books focused on emotional geography have emerged, establishing this area as a significant substream within geographical research. 
               According to the summarization by Bondi, emotional geography was grounded in a set of geographical traditions that were deeply influenced by philosophies and methodologies from the humanities and social sciences, such as humanistic geography, feminist geography, and non-representational geography. 
@@ -52,13 +52,14 @@
               Even the same geographic scale (e.g., the distance between work and home) can be perceived differently given different moods and states (e.g., the road feels lengthy and tiring after a day of overtime work, but becomes shorter and more pleasing on the last day before a holiday). 
               Sometimes, individuals may even exhibit extreme emotions to places, such as agoraphobia (i.e., an intense fear of open or crowded spaces) and madness.  -->
             </p>
+            <div class="buttonRight">
+              <a href="/DataSet">{{details }} >></a>
+            </div>
           </div>
       </div>
   </section>
   
-  <div class="buttonRight">
-    <a href="/DataSet">{{details }} >></a>
-  </div>
+ 
 
   <div style="height: 30px;"></div>
 
@@ -74,13 +75,14 @@
             Through an analysis of a curated corpus of affective geovisualization designs using the Person-Process-Place (PPP) model from geographic theory, we derived a design taxonomy that characterizes a variety of methods for eliciting and enhancing emotions through geographic visualization. 
             We also identified four underlying high-level design paradigms of affective geovisualization design (e.g., computational, anthropomorphic) that guide distinct approaches to linking geographic information with human experience. 
           </p>
+          <div class="buttonRight">
+    <a href="/Taxonomy">{{details2 }} >></a>
+  </div>
         </div>
       </div>
   </section>
 
-  <div class="buttonRight">
-    <a href="/Taxonomy">{{details2 }} >></a>
-  </div>
+
 
 
   <!-- <section></section> -->
@@ -257,7 +259,8 @@ td, th {
 
 .buttonRight {
   display: flex;
-  justify-content: flex-end; /* 将按钮推到容器最右边 */
+  /* justify-content: flex-end;  */
+  /* 将按钮推到容器最右边 */
   margin-top: 10px; /* 按钮与文字之间的间距 */
   padding-right: 40px;
   padding-bottom: 20px;
@@ -267,17 +270,17 @@ td, th {
   text-decoration: none;
   font-size: 18px;
   border: 1.5px solid #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px 10px;
   color: #fff;
-  background-color: #373c4e8d;
+  background-color: #11334A;
   transition: 0.5s;
   white-space: nowrap; /* 防止按钮文字换行 */
 }
 
 .buttonRight a:hover {
-  background-color: #ffffff0d;
-  color: #373c4ec5;
+  background-color: #11334adf;
+  color: #fff;
 }
 
 /* 文字部分样式 */
