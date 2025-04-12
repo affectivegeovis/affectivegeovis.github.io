@@ -37,7 +37,7 @@ export default {
         highlightPoint(pointName) {
             
             if (!this.chart || !pointName) return;
-            console.log(pointName)
+            // console.log(pointName)
             let option = this.chart.getOption();
             let series1 = option.series;
             series1.forEach(serie => {
@@ -50,11 +50,18 @@ export default {
                     serie.data[index][4] = 15; // 设置选中点的大小
                 }
             });
+            // console.log(echarts.version)
+            this.chart.setOption(option)
+    //         this.chart.setOption(option,{
+    // notMerge: false,
+    // // lazyUpdate: "seires",
+    // silent: true
+// });
+// this.chart.setOption(option, lazyUpdate);
 
-            this.chart.setOption(option);
+
 
         },
-
         initChart() {
             const echarts = require('echarts');
             this.chart = echarts.init(this.$refs.chartContainer);
@@ -179,9 +186,9 @@ export default {
             });
 
             // 如果有选中的点，高亮显示
-            if (this.selectedPointName) {
-                this.highlightPoint(this.selectedPointName);
-            }
+            // if (this.selectedPointName) {
+            //     this.highlightPoint(this.selectedPointName);
+            // }
         
     }).catch((error) => {
   console.error('Error reading local JSON file:', error);

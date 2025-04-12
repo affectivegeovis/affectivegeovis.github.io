@@ -1,5 +1,7 @@
 <template>
-  <div ref="matrixTable" style="height: 100%; width: 100%;min-width: 300px;"></div>
+  <div ref="matrixTable" style="height: 100%; width: 100%;min-width: 300px;">
+    
+  </div>
 </template>
 
 <script>
@@ -18,7 +20,8 @@ export default {
       techHierarchy: [],
       projects: [],
       techMap: new Map(),
-      margin: { top: 10, right: 10, bottom: 10, left: 200 }
+      margin: { top: 10, right: 10, bottom: 10, left: 200 },
+      
     }
   },
   watch: {

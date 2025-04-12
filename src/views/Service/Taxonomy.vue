@@ -11,11 +11,19 @@
         </div>
         <div class="taxonomy-container">
             <!-- 左侧大表格 -->
+            <div class="zoom-buttons" style="position: absolute; top: 30px; left: 30px; z-index: 10;">
+                    <button @click="zoomIn"  class="zoom-button"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                    <button @click="zoomOut" class="zoom-button"><i class="fa-solid fa-magnifying-glass-minus"></i></button>
+                    <button @click="scale = 1" class="zoom-button"><i class="fa-solid fa-rotate-right"></i></button>
+                </div>
             <div class="table-section">
+                
                 <barbrush 
                     ref="barbrushRef" 
                     :selected-project-name="selectedProjectName"
-                    @project-selected="handleProjectSelected"/>
+                    @project-selected="handleProjectSelected" :style="{ transform: `scale(${scale})`,transformOrigin: 'top left'}"/>
+        
+                
             </div>
             
             <!-- 右侧布局 -->
@@ -88,7 +96,10 @@
                 selectedProject: null,     // 当前选中项目的完整信息
                 projectData: [],          // 所有项目数据
                 scatterData: [],           // 散点图数据
-                selectedPoint: null        // 当前选中的点
+                selectedPoint: null,        // 当前选中的点
+                scale: 1,
+                minScale: 0.5,
+                maxScale: 3,
             }
         },
         watch: {
@@ -99,6 +110,12 @@
             }
         },
         methods: {
+            zoomIn() {
+            this.scale = Math.min(this.maxScale, this.scale + 0.1);
+            },
+            zoomOut() {
+            this.scale = Math.max(this.minScale, this.scale - 0.1);
+            },
             // 统一的项目选择处理函数
             handleProjectSelected(projectName) {
                 // 找到最匹配的项目
@@ -193,6 +210,7 @@
     }
 
     .taxonomy-container {
+        position: relative;
         display: flex;
         width: 100%;
         height: calc(100vh - 140px);
@@ -202,6 +220,9 @@
     }
 
     .table-section {
+        /* overflow: auto; */
+        overflow: scroll;
+        
         flex: 3;
         border: 1px solid #eee;
         border-radius: 8px;
@@ -209,6 +230,21 @@
         background-color: white;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
+    .zoom-buttons {
+  display: flex;
+  gap: 5px;
+}
+.zoom-button {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.zoom-button:hover {
+  background-color: #e0e0e0;
+}
 
     .right-section {
         flex: 2;
