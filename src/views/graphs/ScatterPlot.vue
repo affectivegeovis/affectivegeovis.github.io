@@ -21,13 +21,7 @@ export default {
         return {
             chart: null,
             colData: [],
-            rowData: [],
-            colormap:[
-                "#F3D027",
-                "#AAD2E0",
-                "#478F8D",
-                "#23BF0C",//3
-            ]
+            rowData: []
         }
     },
     watch: {
@@ -43,7 +37,7 @@ export default {
         highlightPoint(pointName) {
             
             if (!this.chart || !pointName) return;
-            // console.log(pointName)
+            console.log(pointName)
             let option = this.chart.getOption();
             let series1 = option.series;
             series1.forEach(serie => {
@@ -55,12 +49,12 @@ export default {
                 if (index !== -1) {
                     serie.data[index][4] = 15; // 设置选中点的大小
                 }
-                
-                    
             });
-            console.log(option)
-            this.chart.setOption(option)
+
+            this.chart.setOption(option);
+
         },
+
         initChart() {
             const echarts = require('echarts');
             this.chart = echarts.init(this.$refs.chartContainer);
@@ -96,7 +90,6 @@ export default {
                     item.z,
                     item.name,
                     6
-                    
                 ]),
                 symbol: 'triangle',
                 symbolSize: 6,
@@ -124,24 +117,17 @@ export default {
                         item.y,
                         item.z,
                         item.name,
-                        5 ,
+                        5 
                     ]),
                     symbol: 'circle',
                     symbolSize: function (val) {
-                        console.log(val[4])
                         return val[4] || 5; // 第5个元素控制大小，默认5
                     },
                     itemStyle: {
-                        color:function (val) {
-                            if (val.value[4]===15){
-                                return 'red'
-                            }
-                            return color; // 第5个元素控制大小，默认5
-                    },
+                        color: color,
                         opacity: 0.8
                     }
-                }
-         
+                };
             });
 
             const option = {
@@ -154,7 +140,7 @@ export default {
                     }
                 },
                 legend: {
-                    data: ['Method', ...rowClusters.map(cluster => `${clustername[cluster]}`)]
+                    data: ['Method', ...rowClusters.map(cluster => `${clustername[cluster]}`)],
                 },
                 grid3D: {
                     viewControl: {
@@ -193,9 +179,9 @@ export default {
             });
 
             // 如果有选中的点，高亮显示
-            // if (this.selectedPointName) {
-            //     this.highlightPoint(this.selectedPointName);
-            // }
+            if (this.selectedPointName) {
+                this.highlightPoint(this.selectedPointName);
+            }
         
     }).catch((error) => {
   console.error('Error reading local JSON file:', error);
