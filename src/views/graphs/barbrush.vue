@@ -301,7 +301,7 @@ export default {
                 .attr('text-anchor', 'middle')
                 .attr('dominant-baseline', 'middle')
                 .attr('transform', `rotate(-90, ${textX}, ${textY})`)
-                .style('font-size', '6px')
+                .style('font-size', '5px')
                 .text(tech.tech);
               
               xPosition += cellWidth;
