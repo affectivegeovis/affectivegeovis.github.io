@@ -21,7 +21,13 @@ export default {
         return {
             chart: null,
             colData: [],
-            rowData: []
+            rowData: [],
+            colormap:[
+                "#F3D027",
+                "#AAD2E0",
+                "#478F8D",
+                "#23BF0C",//3
+            ]
         }
     },
     watch: {
@@ -44,23 +50,22 @@ export default {
                 const defaultSize = serie.name === 'Method' ? 8 : 5; // 如果是 "Method"，默认大小为 8，否则为 5
                 serie.data.forEach(item => {
                     item[4] = defaultSize; // 设置默认大小
+                    if (serie.name === 'Method') {
+                        return
+                    } else {
+                         item[5] = this.colormap[item[6]]; // 设置默认颜色
+                    }
                 });
                 const index = serie.data.findIndex(item => item[3] === pointName);
                 if (index !== -1) {
                     serie.data[index][4] = 15; // 设置选中点的大小
+                    serie.data[index][5] = 'red';
                 }
+                
+                    
             });
-            // console.log(echarts.version)
+            console.log(option)
             this.chart.setOption(option)
-    //         this.chart.setOption(option,{
-    // notMerge: false,
-    // // lazyUpdate: "seires",
-    // silent: true
-// });
-// this.chart.setOption(option, lazyUpdate);
-
-
-
         },
         initChart() {
             const echarts = require('echarts');
@@ -97,6 +102,7 @@ export default {
                     item.z,
                     item.name,
                     6
+                    
                 ]),
                 symbol: 'triangle',
                 symbolSize: 6,
@@ -124,17 +130,23 @@ export default {
                         item.y,
                         item.z,
                         item.name,
-                        5 
+                        5 ,
+                        item.color,
+                        item.cluster
                     ]),
                     symbol: 'circle',
                     symbolSize: function (val) {
+                        console.log(val[4])
                         return val[4] || 5; // 第5个元素控制大小，默认5
                     },
                     itemStyle: {
-                        color: color,
+                        color:function (val) {
+                            return val.value[5]||color; // 第5个元素控制大小，默认5
+                    },
                         opacity: 0.8
                     }
-                };
+                }
+         
             });
 
             const option = {
