@@ -17,21 +17,21 @@ Architecture/site,15,Place,Geographical,Geographical,10
 Physical,16,Place,Subjective,Subjective,39
 Memorized,17,Place,Subjective,Subjective,11
 Psychological,18,Place,Subjective,Subjective,12
-Inherent emotional attitude,19,Process,Emotional Data Content,Designer,11
-Personal experience,20,Process,Emotional Data Content,Designer,10
-Collaborative activity,21,Process,Emotional Data Content,Subject,21
-Embodied movement,22,Process,Emotional Data Content,Subject,18
-Interview,23,Process,Emotional Data Content,Subject,14
-Drawing/sketching,24,Process,Emotional Data Content,Subject,14
-Fieldwork and ethnography,25,Process,Emotional Data Content,Subject,8
-Video recording/taking pictures,26,Process,Emotional Data Content,Subject,6
-Posting sticky notes,27,Process,Emotional Data Content,Subject,5
-Prepared toolkit,28,Process,Emotional Data Content,Subject,3
-Hardware,29,Process,Emotional Data Content,Subject,7
-Historical material mining,30,Process,Emotional Data Content,Subject,5
-System/platform development,31,Process,Emotional Data Content,Subject,8
-Questionnaire and survey,32,Process,Emotional Data Content,Subject,3
-Statis image/painting,33,Process,Emotional Representation,Genre,27
+Inherent emotional attitude,19,Process,Emotional Data Source,Designer,11
+Personal experience,20,Process,Emotional Data Source,Designer,10
+Collaborative activity,21,Process,Emotional Data Source,Subject,21
+Embodied movement,22,Process,Emotional Data Source,Subject,18
+Interview,23,Process,Emotional Data Source,Subject,14
+Drawing/sketching,24,Process,Emotional Data Source,Subject,14
+Fieldwork and ethnography,25,Process,Emotional Data Source,Subject,8
+Video recording/taking pictures,26,Process,Emotional Data Source,Subject,6
+Posting sticky notes,27,Process,Emotional Data Source,Subject,5
+Prepared toolkit,28,Process,Emotional Data Source,Subject,3
+Hardware,29,Process,Emotional Data Source,Subject,7
+Historical material mining,30,Process,Emotional Data Source,Subject,5
+System/platform development,31,Process,Emotional Data Source,Subject,8
+Questionnaire and survey,32,Process,Emotional Data Source,Subject,3
+Static image/painting,33,Process,Emotional Representation,Genre,27
 Event,34,Process,Emotional Representation,Genre,16
 Interactive interface,35,Process,Emotional Representation,Genre,14
 Artifact,36,Process,Emotional Representation,Genre,10

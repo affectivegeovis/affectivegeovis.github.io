@@ -130,7 +130,7 @@ export default {
         'historical material mining': '#F2E2D9',
         'system/platform development': '#F2E2D9',
         'questionnaire and survey': '#F2E2D9',
-        'statis image/painting': '#E7E6E6',
+        'static image/painting': '#E7E6E6',
         'event': '#E7E6E6',
         'interactive interface': '#E7E6E6',
         'artifact': '#E7E6E6',

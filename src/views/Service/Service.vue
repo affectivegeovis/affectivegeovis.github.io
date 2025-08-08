@@ -228,7 +228,7 @@
         Process2:[ 'typeface', 'image/photo', 'wording/phrasing',
 'layout', 'symbol/metaphor', 'animation/simulation','annotated content/associated stories', 'shape', 'body language',
 'collage', 'color', 'style', 'sound', 'tangible material/texture','personalized visual', 
-    ],Genre:['installation', 'performance','statis image/painting', 'video', 'interactive interface', 'event','artifact'],
+    ],Genre:['installation', 'performance','static image/painting', 'video', 'interactive interface', 'event','artifact'],
         
         selectedFilters: {
             time: [],
